@@ -5,11 +5,11 @@ class Dog
   @@all = []
   
   def initialize(name, breed, age)
-    name = @name 
-    breed = @breed 
-    age = @age 
-    binding.pry
-    @@all << self 
+    @name = name 
+    @breed = breed 
+    @age = age  
+    @@all << self
+    # binding.pry
   end 
   
   def self.all 
